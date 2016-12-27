@@ -22,62 +22,39 @@
             android:paddingTop="25dp"
             android:paddingBottom="25dp" />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="POPULAR MOVIES"
             android:id="@+id/moviesAppBtn"
-            android:layout_marginTop="62dp"
-            android:width="250dp"
-            android:background="@color/accent_material_dark" />
+            style="@style/BtnTheme"
+            android:layout_marginTop="62dp" />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="STOCK HAWK"
             android:id="@+id/stockAppBtn"
             android:layout_below="@+id/moviesAppBtn"
-            android:layout_marginTop="10dp"
-            android:width="250dp"
-            android:background="@color/accent_material_dark" />
+            style="@style/BtnTheme" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="BUILD IT BIGGER"
             android:id="@+id/buildItAppBtn"
             android:layout_below="@+id/stockAppBtn"
-            android:layout_marginTop="10dp"
-            android:width="250dp"
-            android:background="@color/accent_material_dark" />
+            style="@style/BtnTheme" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="MAKE YOUR APP MATERIAL"
             android:id="@+id/materialAppBtn"
             android:layout_below="@+id/buildItAppBtn"
-            android:layout_marginTop="10dp"
-            android:width="250dp"
-            android:background="@color/accent_material_dark" />
+            style="@style/BtnTheme" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="GO UBIQUITOUS"
             android:id="@+id/ubiqAppBtn"
             android:layout_below="@+id/materialAppBtn"
-            android:layout_marginTop="10dp"
-            android:width="250dp"
-            android:background="@color/accent_material_dark" />
+            style="@style/BtnTheme" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="CAPSTONE: MY OWN APP"
             android:id="@+id/capstoneAppBtn"
             android:layout_below="@+id/ubiqAppBtn"
-            android:layout_marginTop="10dp"
-            android:width="250dp"
-            android:background="@color/accent_material_light" />
+            style="@style/BtnTheme" />
     </LinearLayout>
 </ScrollView>
 
